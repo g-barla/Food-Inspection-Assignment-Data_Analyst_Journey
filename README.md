@@ -37,14 +37,14 @@ Variables included:
 - Latitude & Longitudes
 - 	License ID , Risk Level
 
-##🧼 Data Cleaning – Alteryx Logic
+## 🧼 Data Cleaning – Alteryx Logic
 	-	Filtered out records missing restaurant names
 	-	Applied REGEX_Replace to remove non-alphabetic characters
 	-	Removed rows with numerical-only names (invalid)
 	-	Generated RowID for tracking and unique reference
 	-	Ensured consistent formatting for zip codes and geolocation
 
-##🔄 Data Pipeline Architecture
+## 🔄 Data Pipeline Architecture
 
 🔷 Azure Data Factory – ETL Flow
 	-	Read: Ingested Chicago and Dallas datasets from staging.
@@ -54,7 +54,7 @@ Variables included:
 	-	Aggregate: Removed redundancy using address-level grouping.
 	-	Sink: Loaded clean data into ds_DimLocation SQL table.
 
- ##🧪 Data Profiling Report – YData Summary
+ ## 🧪 Data Profiling Report – YData Summary
 
 |Metric        | Value              |
 |--------------|--------------------|
@@ -65,7 +65,7 @@ Variables included:
 
 The profiling report allowed us to prioritize cleaning steps and remove low-quality records, especially from the Chicago dataset.
 
-##📈 Visualizations
+## 📈 Visualizations
 
 Using Power BI, we developed a dashboard to analyze key metrics from the cleaned dataset.
 
@@ -77,7 +77,7 @@ Using Power BI, we developed a dashboard to analyze key metrics from the cleaned
 |Violation Type Summary| Frequent infractions grouped by violation categories  |
 
 
-##✅ Key Takeaways
+## ✅ Key Takeaways
 	-	Learned to implement scalable pipelines in Azure Data Factory
 	-	Practiced real-world data cleaning with Alteryx & Regex
 	-	Applied data profiling for smart decision-making
@@ -85,9 +85,9 @@ Using Power BI, we developed a dashboard to analyze key metrics from the cleaned
 	-	Visualized geographic and temporal trends using Power BI
 
  
-👥 Team Members
-	•	👤 Je Sai Kailash Pulipati
-	•	👤 Deepthi Ramesh
-	•	👤 Geetika Barla
+## 👥 Team Members
+	-👤 Je Sai Kailash Pulipati
+	-👤 Deepthi Ramesh
+	-👤 Geetika Barla
 
 
