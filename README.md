@@ -23,7 +23,7 @@ The goal of this project was to:
 | YData Profiler     | Profiling theh dataset                    |
 
 ----
-📂## Dataset Summary
+## 📂 Dataset Summary
 
 |Dataset          | Records      | Format | 
 |-----------------|--------------|--------|
