@@ -1,6 +1,6 @@
-🍽️ Restaurant and Food Establishment Inspections – End-to-End Data Engineering Project
+*🍽️ Restaurant and Food Establishment Inspections – End-to-End Data Engineering Project*
 
-📝 Project Summary
+*📝 Project Summary*
 
 This project focuses on integrating and transforming restaurant and food establishment inspection datasets from Chicago and Dallas, ensuring consistency, data quality, and readiness for analytical and reporting purposes.
 
@@ -10,6 +10,7 @@ Key objectives included:
 	•	Enriching and modeling the data to support dimensional warehousing
 
  🧰 Technologies Used
+
  Tool                      Purpose
 Azure Data Factory         ETL pipeline orchestration
 Alteryx                    Data cleansing, deduplication, and transformation
