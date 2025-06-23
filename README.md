@@ -1,22 +1,29 @@
-*🍽️ Restaurant and Food Establishment Inspections – End-to-End Data Engineering Project*
+**🍽️ Restaurant and Food Establishment Inspections – End-to-End Data Engineering Project**
 
-*📝 Project Summary*
+**📝 Project Summary**
 
-This project focuses on integrating and transforming restaurant and food establishment inspection datasets from Chicago and Dallas, ensuring consistency, data quality, and readiness for analytical and reporting purposes.
+This end-to-end data engineering project compares and integrates restaurant inspection data from Chicago and Dallas, focusing on creating a clean, consistent, and analytics-ready dataset. The project leveraged modern data tools like Azure Data Factory, SQL, and Alteryx to build a robust ETL workflow and prepare the data for advanced reporting.
 
-Key objectives included:
-	•	Cleansing and unifying multi-city inspection records
-	•	Removing inconsistencies, duplicates, and nulls
-	•	Enriching and modeling the data to support dimensional warehousing
+**🎯 Objective**
 
- 🧰 Technologies Used
+The goal of this project was to:
+	•	Clean raw inspection data for both cities
+	•	Handle missing and duplicate values
+	•	Apply data standardization and transformation logic
+	•	Generate a dimensional DimLocation table with surrogate keys
+	•	Enable downstream insights via Power BI dashboarding
 
- Tool                      Purpose
-Azure Data Factory         ETL pipeline orchestration
-Alteryx                    Data cleansing, deduplication, and transformation
-SnowFlake                  Data storage 
-Power BI                   Visualization 
-YData Profiler             Data quality analysis and profiling
+**🧰 Tools & Technologies Used**
+
+| Tool               | Purpose                                   | 
+|--------------------|-------------------------------------------|
+| Azure Data Factory | Applied data cleaning and logic           |
+| Snowflake          | Data source and sink management           |
+| Power BI           | Dashboard creation and data visualization |
+| YData Profiler     | Profiling theh dataset                    |
+
+
+
 
 
 
